@@ -1,0 +1,48 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+	    ,{
+            "path" : "pages/mingxi/mingxi",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/tixian/tixian",
+            "style" : {}
+        }
+    ],
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#343434",
+		"borderStyle": "white",
+		"backgroundColor": "#F7F7F7",
+		"fontSize": "16px",
+		"iconWidth": "30px",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "",
+			"selectedIconPath": "",
+			"text": "投递中心"
+		},{
+			"pagePath": "pages/mingxi/mingxi",
+			"iconPath": "",
+			"selectedIconPath": "",
+			"text": "明细"
+		},{
+			"pagePath": "pages/tixian/tixian",
+			"iconPath": "",
+			"selectedIconPath": "",
+			"text": "提现"
+		}]
+		},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

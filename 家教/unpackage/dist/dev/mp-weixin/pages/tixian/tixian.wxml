@@ -1,0 +1,1 @@
+<view><view class="block1"><view class="add">+</view><view class="font1">添加提现账户</view></view><view class="block2"></view><view class="block3"><view class="font2">提现金额</view><view class="block31"><view class="font5">¥</view><input class="font3" placeholder="可提现金额"/><view class="font4">全部提现</view></view></view><button class="block4">提现</button></view>
